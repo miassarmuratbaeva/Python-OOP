@@ -6,6 +6,6 @@ class Student:
     def info(self):
         print(f"{self.name}, {self.age} yoshda, {self.grade}-sinf oquvchisi.")
 student1 = Student("Ali", 15, 9)
-student2 = Student("Malika", 16, 10)
+student2 = Student("Vali", 16, 10)
 student1.info()
 student2.info()

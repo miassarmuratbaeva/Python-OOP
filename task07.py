@@ -1,7 +1,7 @@
 class Movie:
     def __init__(self, title, genre, duration, rating):
         self.title = title
-        self.genre = genre
+        self.genre =genre
         self.duration = int(duration)
         self.rating = float(rating)
     def show_summary(self):

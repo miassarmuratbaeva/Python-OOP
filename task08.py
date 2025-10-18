@@ -8,7 +8,7 @@ class Product:
         if self.in_stock:
             print(f"{self.name} omborda mavjud ")
         else:
-            print(f"{self.name} hozirda tugagan ")
+            print(f"{self.name} hozirda tugagan")
 product1 = Product("AirPods", 199.99, "Electronics", True)
 product2 = Product("iPhone 13", 999.99, "Smartphones", False)
 product1.check_stock()
